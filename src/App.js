@@ -1,6 +1,6 @@
-// import logo from "./logo.svg";
 import "./App.css";
-import ClassClick from "./components/ClassClick";
+import EventBind from "./components/EventBind";
+// import ClassClick from "./components/ClassClick";
 // import FunctionClick from "./components/FunctionClick";
 // import Counter from "./components/Counter";
 // import Greet from "./components/Greet";
@@ -11,8 +11,9 @@ import ClassClick from "./components/ClassClick";
 function App() {
     return (
         <div className="App">
+            <EventBind></EventBind>
             {/* <FunctionClick></FunctionClick> */}
-            <ClassClick></ClassClick>
+            {/* <ClassClick></ClassClick> */}
             {/* <Counter></Counter> */}
             {/* <Message></Message> */}
             {/* <Greet name="Bubba" heroName="Wizard">
