@@ -1,5 +1,6 @@
 import "./App.css";
-import EventBind from "./components/EventBind";
+import ParentComponent from "./components/ParentComponent";
+// import EventBind from "./components/EventBind";
 // import ClassClick from "./components/ClassClick";
 // import FunctionClick from "./components/FunctionClick";
 // import Counter from "./components/Counter";
@@ -11,7 +12,8 @@ import EventBind from "./components/EventBind";
 function App() {
     return (
         <div className="App">
-            <EventBind></EventBind>
+            <ParentComponent></ParentComponent>
+            {/* <EventBind></EventBind> */}
             {/* <FunctionClick></FunctionClick> */}
             {/* <ClassClick></ClassClick> */}
             {/* <Counter></Counter> */}
